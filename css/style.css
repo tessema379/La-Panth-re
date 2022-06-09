@@ -752,7 +752,7 @@ h4 {
 
 .portfolio-thumb {
     margin-bottom: 24px;
-    width: 100%; /* Add width to put the img responsive*/
+    width: 100%; 
 }
 
 .portfolio-row {
@@ -788,6 +788,7 @@ h4 {
 
 .tc-white {
     color: #ffffff!important;
+    font-size: 18px;
 }
 
 .btn-atomic-tangerine {
