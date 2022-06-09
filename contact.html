@@ -13,14 +13,14 @@
 
 	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
 	<!-- style.css -> ./css/styles.css (27.05.22 14:18) -->
-	<link rel="stylesheet" type="text/css" href="./css/style.css">
+	<link rel="stylesheet" type="text/css" href="./css/style.min.css">
 
 	<!-- Update jquery from 2.1.0 to 3.6.0 -->
-	<script src="./js/jquery-3.6.0.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/blocs.js"></script>
-	<script src="./js/jquery.touchSwipe.js" defer></script>
-	<script src="./js/gmaps.js"></script>
+	<script src="./js/jquery-3.6.0.min.js"></script>
+	<script src="./js/bootstrap.min.js"></script>
+	<script src="./js/blocs.min.js"></script>
+	<script src="./js/jquery.touchSwipe.min.js" defer></script>
+	<script src="./js/gmaps.min.js"></script>
 
 
 	<!-- Analytics -->
@@ -72,7 +72,8 @@
 		<!-- bloc-0 END -->
 
 		<!-- bloc-6 -->
-		<section class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper" id="bloc-6">
+		<section class="bloc bg-dots-bg bg-repeat bgc-atomic-tangerine d-bloc bloc-bg-texture texture-paper"
+			id="bloc-6">
 			<div class="container bloc-lg">
 				<div class="row">
 					<div class="col-sm-12">
@@ -97,25 +98,29 @@
 						<form id="form_1" novalidate success-msg="Your message has been sent."
 							fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 							<div class="form-group">
-								<label for="name"> <!-- add for=" from id " (02.06.2022)-->
+								<label for="name">
+									<!-- add for=" from id " (02.06.2022)-->
 									Nom
 								</label>
 								<input id="name" class="form-control" required />
 							</div>
 							<div class="form-group">
-								<label for="email"> <!-- add for=" from id " (02.06.2022)-->
+								<label for="email">
+									<!-- add for=" from id " (02.06.2022)-->
 									Adresse email
 								</label>
 								<input id="email" class="form-control" type="email" required />
 							</div>
 							<div class="form-group">
-								<label for="input_504"> <!-- add for=" from id " (02.06.2022)-->
+								<label for="input_504">
+									<!-- add for=" from id " (02.06.2022)-->
 									Comment nous avez-vous connu ?
-								</label >
+								</label>
 								<input class="form-control" type="email" required id="input_504" />
 							</div>
 							<div class="form-group">
-								<label for="message"> <!-- add for=" from id " (02.06.2022)-->
+								<label for="message">
+									<!-- add for=" from id " (02.06.2022)-->
 									Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
 								</label><textarea id="message" class="form-control" rows="4" cols="50"
 									required></textarea>
