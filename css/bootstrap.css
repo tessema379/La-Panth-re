@@ -1912,7 +1912,8 @@ blockquote.pull-right small:after {
 }
 
 address {
-    margin-bottom: 20px;
+    color:#000;
+    text-align: center;
     font-style: normal;
     line-height: 1.42857143
 }
