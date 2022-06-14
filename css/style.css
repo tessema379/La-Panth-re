@@ -693,6 +693,9 @@ p {
     margin: 0 auto;
 }
 
+
+
+
 .h1 {
     font-size: 20px;
     font-family: "Open Sans";
@@ -798,6 +801,11 @@ h2 {
 .tc-white {
     color: #ffffff !important;
     font-size: 18px;
+}
+
+.tc-black {
+    color: #000 !important;
+    font-size: 28px;
 }
 
 .btn-atomic-tangerine {
